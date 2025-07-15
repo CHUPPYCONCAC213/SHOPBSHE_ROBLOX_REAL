@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ShopBSHE - Roblox</title>
+  </head>
+  <body>
+    <h1>Danh sách acc</h1>
+    <% accs.forEach(acc => { %>
+      <div>
+        <p><strong>User:</strong> <%= acc.username %> | <strong>Giá:</strong> <%= acc.price %></p>
+      </div>
+    <% }); %>
+  </body>
+</html>
